@@ -4,3 +4,11 @@
 <h3> Occupation: {{ character.occupation }} </h3>
 
 <p> Weapon: {{ character.weapon }} </p>
+
+<a href="/characters/{{character.id}}/edit">Edit character</a>
+
+<form action="/characters/{{character.id}}/delete" method="post">
+<button>
+    Delete players
+</button>
+</form>

@@ -1,0 +1,20 @@
+
+
+<form action="/characters/{{character.id}}/update" method="post">
+
+
+<label for="name">Name:</label>
+<input type="text" id="nameinput" name="name" value="{{character.name}}">
+
+<label for="occupation">Occupation:</label>
+<input type="text" id="occupationInput" name="occupation" value="{{character.occupation}}">
+
+<label for="weapon">Weapon:</label>
+<input type="text" id="weaponInput" name="weapon" value="{{character.weapon}}">
+
+<label for="isCartoon">Is a cartoon:</label>
+<input type="checkbox" id="cartoonInput">
+<button>Update character</button>
+
+
+</form>
